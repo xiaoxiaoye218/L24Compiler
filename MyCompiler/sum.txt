@@ -1,0 +1,15 @@
+main {
+    var n, sum, i;
+    i=1;
+    scan(n,sum);
+    
+    i = 1;
+
+    while (i <= n) 
+    {
+        sum = sum + i;
+        i = i + 1;
+    };
+
+    print(sum);
+}

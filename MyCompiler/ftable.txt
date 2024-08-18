@@ -1,0 +1,4 @@
+    1 var   x lev=0 addr=3
+    2 var   y lev=0 addr=4
+    3 str  s lev=0 addr=5 size=0
+

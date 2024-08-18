@@ -1,0 +1,35 @@
+main {
+    var n, result, i, j;
+    scan(n);
+    result = 0;
+
+    if (n == 1) then {
+        i = 0;
+        while (i < 10) {
+            result = result + i;
+            i = i + 1;
+        };
+    } end;
+
+    if (n == 2) then {
+        j = 0;
+        while (j < 10) {
+            result = result + (j * 2);
+            j = j + 1;
+        };
+    } end;
+
+    if (n == 3) then {
+        i = 0;
+        while (i < 10) {
+            if (i==i/2*2) then {
+                result = result + i;
+            } else {
+                result = result + (i * 3);
+            }end;
+            i = i + 1;
+        };
+    } end;
+
+    print(result);
+}

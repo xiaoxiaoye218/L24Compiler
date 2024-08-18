@@ -1,0 +1,14 @@
+main {
+ var a,b;
+ str c;
+ a = 5;
+ b = 10;
+ c = "Hello";
+ print(a);
+ print(b);
+ print(c);
+ c = c + " World";
+ print(c);
+ c = c * 3;
+ print(c);
+}

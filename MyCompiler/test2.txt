@@ -1,0 +1,18 @@
+main {
+  var a,b,c,d,e,result1,result2,result3,result4,result5,result6,result7;
+   a = 1;
+   b = 2;
+   c = 3;
+   d = 4;
+   e = 6;
+   result1 = a + b - c + 1;
+   result2 = (a * b) - c + 2;
+   result3 = a * (b + c) - d + 1;
+   result4 = (a * b + c) / d + 1;
+   result5 = ((a + b) * (c - 1)) / d + 1;
+   result6 = ((a + b) - (c / d) + 1) * e;
+   result7 = a + b - b + 1;
+
+ print(result1, result2, result3, result4, result5, 
+ result6, result7);
+}

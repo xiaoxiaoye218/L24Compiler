@@ -1,0 +1,22 @@
+0 main {
+0  var x, y;
+1  str s;
+1  x = 2;
+4  y = 3;
+6  s = "L24";
+8  if (x < y) then {
+11  print("x is less than y");
+16  x = x + y;
+20  } else {
+20  print("x is not less than y");
+25  } end;
+25  while (x > 0) {
+28  print(s + "-" + x); 
+36  x = x - 1;
+40  };
+41  s = s * 2;
+45 s = s + " Language";
+49  print(s); 
+52 }
+
+===Parsing success!===

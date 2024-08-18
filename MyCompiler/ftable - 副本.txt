@@ -1,0 +1,15 @@
+    1 const a val=27
+    2 const b val=80
+    3 var   x lev=0 addr=3
+    4 var   y lev=0 addr=4
+    5 var   z lev=0 addr=5
+    6 proc  p lev=0 addr=2 size=4
+    7 var   f lev=1 addr=3
+
+    1 const a val=27
+    2 const b val=80
+    3 var   x lev=0 addr=3
+    4 var   y lev=0 addr=4
+    5 var   z lev=0 addr=5
+    6 proc  p lev=0 addr=2 size=4
+

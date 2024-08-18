@@ -1,0 +1,20 @@
+main {
+ var x, y;
+ str s;
+ x = 2;
+ y = 3;
+ s = "L24";
+ if (x < y) then {
+ print("x is less than y");
+ x = x + y;
+ } else {
+ print("x is not less than y");
+ } end;
+ while (x > 0) {
+ print(s + "-" + x); 
+ x = x - 1;
+ };
+ s = s * 2;
+s = s + " Language";
+ print(s); 
+}

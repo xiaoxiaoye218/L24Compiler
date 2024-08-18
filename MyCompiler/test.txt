@@ -1,0 +1,19 @@
+const a=27,b=80;
+
+var x,y,z;
+
+procedure p;
+
+ var f;
+
+ begin
+
+  f:=(a+b)/3;
+
+ end;
+
+begin
+
+  x:=3; call p;
+
+end.
